@@ -32,6 +32,7 @@ function logout() {
     alert("logged out");
     window.close();
     firebase.auth().signOut();
+    window.open("login.html");
 
 
 }
