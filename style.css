@@ -1,0 +1,150 @@
+/* Imprting the fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap');
+
+/* Tag Selectors */
+
+body {
+    /* text-align: right; */
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #ffff;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 0.6rem;
+    color: #707070;
+}
+
+
+/* class selectors */
+
+.body-container {
+    margin: 0;
+}
+
+.image {
+    position: absolute;
+    z-index: -1;
+}
+
+.btn-signout {
+    text-align: right;
+    padding: 10px;
+}
+
+.upper-container {
+    padding: 50px 0 0 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 3.125rem;
+    margin-bottom: 40px;
+    color: #1e212d;
+}
+
+.form-control {
+    border-radius: 2.5em;
+    text-align: center;
+}
+
+.form-cords {
+    padding: 0 120px;
+}
+
+.search-location {
+    margin: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.today {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #1e212d;
+}
+
+.weather-icon {
+    margin: 20px 0;
+}
+
+.date {
+    font-size: 0.9rem;
+}
+
+.main-temperature {
+    margin: 5px 0px 30px;
+    color: #1e212d;
+}
+
+.main-temperature p {
+    font-size: 7rem;
+    line-height: 0.8;
+}
+
+.view-more-btn {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.bottom-cards {
+    padding: 10px 300px;
+}
+
+.daily-card {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #1e212d;
+    background-color: #707070;
+}
+
+.daily-card .city {
+    margin: 15px;
+    font-size: 1rem;
+    line-height: 0.5;
+    font-weight: 700;
+}
+
+.daily-card .date {
+    margin: 15px;
+    font-size: 1rem;
+    line-height: 0.5;
+    font-weight: 700;
+}
+
+.bottom-weather-icon {
+    margin: 5px 0 5px;
+}
+
+.temp {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.daily-card p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+/* Login Page Styles */
+
+.login,
+.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url('img/login.jpg');
+    background-size: cover;
+    background-position: center center;
+}
